@@ -1,2 +1,2 @@
-# DS-Algos-
-Definition and basic about Data Structure
+# DS-Algos
+Definition and Implementation of Data Structure
