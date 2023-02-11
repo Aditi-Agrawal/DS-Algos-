@@ -1,0 +1,19 @@
+TC=O(log base 10 n)
+class Solution {
+    static String armstrongNumber(int n){
+        int original = n;
+        int lastDigit = 0;
+        int sum = 0;
+        while(n!=0){
+            lastDigit = n%10;
+            sum = sum + (lastDigit*lastDigit*lastDigit);
+            n=n/10;
+        }
+        if(sum==original){
+            return "Yes";
+        }
+        else{
+            return "No";
+        }
+    }
+}
